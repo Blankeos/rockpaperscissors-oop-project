@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="views.GameForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="40" left="40" bottom="40" right="40"/>
+    <constraints>
+      <xy x="20" y="20" width="584" height="467"/>
+    </constraints>
+    <properties>
+      <background color="-2294529"/>
+      <preferredSize width="700" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="2d2da" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2294529"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="939bb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14" style="0"/>
+              <foreground color="-12236470"/>
+              <text value="You"/>
+            </properties>
+          </component>
+          <component id="814a8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14" style="0"/>
+              <foreground color="-12236470"/>
+              <text value="Enemy"/>
+            </properties>
+          </component>
+          <grid id="2cf5c" binding="playerChoicePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5969421"/>
+            </properties>
+            <border type="bevel-lowered"/>
+            <children>
+              <component id="d4191" class="javax.swing.JLabel" binding="playerChoice">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="36"/>
+                  <text value="Rock"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f7a23" binding="enemyChoicePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5969421"/>
+            </properties>
+            <border type="bevel-lowered"/>
+            <children>
+              <component id="4dbd5" class="javax.swing.JLabel" binding="enemyChoice">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="36"/>
+                  <text value="Paper"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="98e67" class="javax.swing.JLabel" binding="stateLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16480321"/>
+          <font size="32" style="1"/>
+          <foreground color="-12236470"/>
+          <text value="Pick Rock, Paper, or Scissors!"/>
+        </properties>
+      </component>
+      <component id="6f54d" class="javax.swing.JButton" binding="rockButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <maximum-size width="-1" height="90"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16480321"/>
+          <font size="20" style="0"/>
+          <foreground color="-1"/>
+          <text value="Rock"/>
+        </properties>
+      </component>
+      <component id="b1795" class="javax.swing.JButton" binding="paperButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <maximum-size width="-1" height="90"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16480321"/>
+          <font size="20" style="0"/>
+          <foreground color="-1"/>
+          <text value="Paper"/>
+        </properties>
+      </component>
+      <component id="c29a6" class="javax.swing.JButton" binding="scissorsButton">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <maximum-size width="-1" height="90"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16480321"/>
+          <font size="20" style="0"/>
+          <foreground color="-1"/>
+          <text value="Scissors"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
