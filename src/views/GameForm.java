@@ -38,18 +38,30 @@ public class GameForm extends View {
 
     public void setPlayerChoice(int choice) {
         switch (choice) {
-            case 0 -> playerChoice.setIcon(rock);
-            case 1 -> playerChoice.setIcon(paper);
-            case 2 -> playerChoice.setIcon(scissors);
+            case 0:
+                playerChoice.setIcon(rock);
+                break;
+            case 1:
+                playerChoice.setIcon(paper);
+                break;
+            case 2:
+                playerChoice.setIcon(scissors);
+                break;
         }
         ApplicationFrame.repack();
     }
 
     public void setEnemyChoice(int choice) {
         switch (choice) {
-            case 0 -> enemyChoice.setIcon(rock);
-            case 1 -> enemyChoice.setIcon(paper);
-            case 2 -> enemyChoice.setIcon(scissors);
+            case 0:
+                enemyChoice.setIcon(rock);
+                break;
+            case 1:
+                enemyChoice.setIcon(paper);
+                break;
+            case 2:
+                enemyChoice.setIcon(scissors);
+                break;
         }
         ApplicationFrame.repack();
     }

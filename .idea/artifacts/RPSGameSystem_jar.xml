@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RPSGameSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RPSGameSystem_jar</output-path>
+    <root id="archive" name="RPSGameSystem.jar">
+      <element id="module-output" name="RPSGameSystem" />
+    </root>
+  </artifact>
+</component>
